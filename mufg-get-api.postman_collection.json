@@ -1,0 +1,38 @@
+{
+	"id": "1a9c856f-5a2c-d22a-45dc-43d36f2054af",
+	"name": "mufg-get-api",
+	"description": "",
+	"order": [
+		"827a902d-30ce-c4ca-97ad-6a03e3f21607"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1611053965580,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "827a902d-30ce-c4ca-97ad-6a03e3f21607",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8082/getCurrentPosition",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "1a9c856f-5a2c-d22a-45dc-43d36f2054af",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost:8082/getCurrentPosition",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1611053967289,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}

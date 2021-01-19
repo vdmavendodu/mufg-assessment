@@ -1,0 +1,46 @@
+{
+	"id": "ef2c91ab-38b6-7033-411f-94b3535fa064",
+	"name": "mufg-update-api",
+	"description": "",
+	"order": [
+		"e18c8930-904f-6dd9-115c-3cc45bd884c8"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1611053901027,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "e18c8930-904f-6dd9-115c-3cc45bd884c8",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8082/updatePosition",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "ef2c91ab-38b6-7033-411f-94b3535fa064",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:8082/updatePosition",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1611053909602,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"position\":{\n\t\t\"direction\":\"N\",\n\t\t\"x\":10,\n\t\t\"y\":10\n\t},\n\t\"move\":[\n\t\t{\n\t\t\t\"o\":\"1\",\n\t\t\t\"l\":90,\n\t\t\t\"f\":10\n\t\t},{\n\t\t\t\"o\":\"2\",\n\t\t\t\"r\":180,\n\t\t\t\"b\":20\n\t\t}\n\t\t]\n}"
+		}
+	]
+}
